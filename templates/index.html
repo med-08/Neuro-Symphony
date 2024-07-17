@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro-Symphony</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #E8B4B8; 
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px; 
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #EED6D3;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #67595E;
+        }
+        .btn-container { 
+            display: flex; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            margin-bottom: 20px; 
+        }    
+        button {
+            flex: 1; 
+            margin: 10px; 
+            padding: 10px; 
+            font-size: 20px; 
+            background-color: #67595E;
+            color: #E8B4B8; 
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #A49393;
+        }
+        
+        
+        #eeg-mood-container { 
+            display: flex; 
+            justify-content: space-between; 
+            margin-top: 30px; 
+            text-align: left;
+        }
+        #eeg-data, #mood-analysis {
+            flex: 1; 
+            margin: 0 10px;
+            font-size: 18px; 
+        }
+
+
+        h1 {
+            font-size: 44px; 
+            margin-bottom: 15px
+        }
+        
+        h2 { 
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        #chart-container {
+            margin-top: 40px; 
+        }
+        #chart-container canvas {
+            width: 100%; 
+            height: auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Neuro-Symphony</h1>
+        <h2>Experience personalized music generated from your brainwaves!</h2>
+        <div class="btn-container"> 
+            <button id="start-session-button">Start Session</button>
+            <button id="play-button">Play Music</button>
+            <button id="pause-button">Pause Music</button>
+            <button id="stop-music-button">Stop Music</button>
+            <button id="stop-session-button">Stop Session</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <div id="eeg-mood-container">
+            <div id="eeg-data">EEG Data: <span id="eeg-value">-</span></div>
+            <div id="mood-analysis">Mood Analysis: <span id="mood-value">-</span></div>
+        </div>
+        <div id="chart-container">
+            <canvas id="mood-chart" width="400" height="200"></canvas>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
