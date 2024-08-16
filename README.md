@@ -1,11 +1,12 @@
 # Neuro-Symphony
-Experience personalized music generated from your brainwaves!
+Checkout [here](https://med28.pythonanywhere.com/)
+**Experience personalized music generated from your brainwaves!**
 
 Neuro-Symphony is an innovative system designed to transform neural signals into personalized, immersive musical experiences. By interpreting brainwaves and emotional states, this AI-driven technology generates unique musical compositions tailored to an individual’s current mood and thoughts. The primary objective of Neuro-Symphony is to enhance mental well-being, creativity, and overall quality of life through the therapeutic power of music.
 
 The project brings an innovative approach to how we interact with machines by using music. This concept aligns with advanced human-machine interfaces that respond to human emotions and cognitive states, a key aspect of future integration scenarios.
 
-# How It Works!
+**How It Works!**
 
 -Brain-Computer Interface (BCI): The system utilizes non-invasive EEG headsets to monitor brain activity. These devices capture neural signals which reflect the user’s emotional and cognitive states.
 
@@ -15,7 +16,7 @@ The project brings an innovative approach to how we interact with machines by us
 
 -Immersive Experience:The music is delivered through high-quality headphones or an immersive sound system, creating a surround sound experience that enhances the user’s engagement and enjoyment.
 
-# Prototype Implementation
+**Prototype Implementation**
 
 Simulated EEG Data Generation: Utilizes random decimal numbers between 0 and 1 to simulate EEG data. Demonstrates real-time visualization of simulated brainwave activity using Chart.js.
 
