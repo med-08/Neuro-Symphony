@@ -5,7 +5,7 @@ Neuro-Symphony is an innovative system designed to transform neural signals into
 
 The project brings an innovative approach to how we interact with machines by using music. This concept aligns with advanced human-machine interfaces that respond to human emotions and cognitive states, a key aspect of future integration scenarios.
 
-How It Works!
+# How It Works!
 
 -Brain-Computer Interface (BCI): The system utilizes non-invasive EEG headsets to monitor brain activity. These devices capture neural signals which reflect the user’s emotional and cognitive states.
 
@@ -15,12 +15,13 @@ How It Works!
 
 -Immersive Experience:The music is delivered through high-quality headphones or an immersive sound system, creating a surround sound experience that enhances the user’s engagement and enjoyment.
 
-Prototype Implementation
+# Prototype Implementation
 
 Simulated EEG Data Generation: Utilizes random decimal numbers between 0 and 1 to simulate EEG data. Demonstrates real-time visualization of simulated brainwave activity using Chart.js.
 
 Music Playback Integration: Integrates with pre-recorded music files ('relaxed_music.mp3' and 'stressed_music.mp3'). Allows dynamic playback control based on simulated mood analysis.
 
 User Interface: Provides interactive controls to start, stop, pause, and reset music sessions. Displays simulated EEG data and mood analysis to the user at intervals of 8 seconds.
+
 
 Neuro-Symphony provides a form of personalized music therapy by adapting the music to the user’s emotional state, helping to reduce stress, anxiety, and depression. Users can create a relaxing atmosphere or enhance their focus during work or study sessions, leveraging the real-time adaptive nature of the system. The project integrates neuroscience, AI, and music in a way that breaks traditional boundaries, creating a new approach to personalized therapy and creative enhancement.
