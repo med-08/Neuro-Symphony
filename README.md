@@ -23,5 +23,3 @@ Music Playback Integration: Integrates with pre-recorded music files ('relaxed_m
 
 User Interface: Provides interactive controls to start, stop, pause, and reset music sessions. Displays simulated EEG data and mood analysis to the user at intervals of 8 seconds.
 
-
-Neuro-Symphony provides a form of personalized music therapy by adapting the music to the user’s emotional state, helping to reduce stress, anxiety, and depression. Users can create a relaxing atmosphere or enhance their focus during work or study sessions, leveraging the real-time adaptive nature of the system. The project integrates neuroscience, AI, and music in a way that breaks traditional boundaries, creating a new approach to personalized therapy and creative enhancement.
