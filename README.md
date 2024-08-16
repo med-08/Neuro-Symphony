@@ -1,6 +1,7 @@
 # Neuro-Symphony
-Checkout [here](https://med28.pythonanywhere.com/)
 **Experience personalized music generated from your brainwaves!**
+Checkout [here](https://med28.pythonanywhere.com/)
+
 
 Neuro-Symphony is an innovative system designed to transform neural signals into personalized, immersive musical experiences. By interpreting brainwaves and emotional states, this AI-driven technology generates unique musical compositions tailored to an individual’s current mood and thoughts. The primary objective of Neuro-Symphony is to enhance mental well-being, creativity, and overall quality of life through the therapeutic power of music.
 
